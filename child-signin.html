@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Child Sign In</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.png" alt="Logo">
+        <nav>
+            <ul>
+                <li><a href="child-signin.html" class="active">Child Sign In</a></li>
+                <li><a href="child-login.html">Child Log In</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="form-section">
+            <h1>Create Child Account</h1>
+            <form id="childSignInForm">
+                <label for="childName">Name:</label>
+                <input type="text" id="childName" name="name" required>
+                <label for="childEmail">Email:</label>
+                <input type="email" id="childEmail" name="email" required>
+                <label for="childPassword">Password:</label>
+                <input type="password" id="childPassword" name="password" required>
+                <button type="submit">Sign In</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="/script.js"></script>
+</body>
+
+</html>
